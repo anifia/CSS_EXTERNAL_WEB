@@ -1,0 +1,89 @@
+section{
+    width: 100%;
+    background-image: url(background.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(230, 129, 184);
+    padding: 0px 5%;
+}
+nav ul {
+    padding: 40px;
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration:none;
+}
+nav ul li a{
+    margin: 25px;
+    font-family: myriad pro regular;
+}
+.head{
+    font-family: RoadTest;
+    font-size: 22px;
+    color:teal;
+}
+.active{
+    font-weight: bold;
+    color:teal;
+}
+.img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img img{
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.text{
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    font-weight: bold;
+}
+.text2{
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    left: 920px;
+    text-align: right;
+    font-weight: bold;
+}
+.video-foto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+ margin: 30px 0;
+ border: 3px solid palevioletred;
+ padding: 10px;
+}
+.video1{
+    border: 3px solid palevioletred;
+    margin: 30px 0;
+    padding: 10px;
+}
+.color{
+    border-color: hotpink;
+}
+.mukena{
+    border-color:lightpink;
+}
